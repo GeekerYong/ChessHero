@@ -1,4 +1,4 @@
-# -*- coding:utf-8 -*- 
+﻿# -*- coding:utf-8 -*- 
 #  @Time : 2018-01-09 11:59
 #  @Author : Khazix
 #  @File : ocr.py
@@ -23,7 +23,7 @@ def get_ocr_result(imagebytes):
     host = 'http://tysbgpu.market.alicloudapi.com'
     path = '/api/predict/ocr_general'
     method = 'POST'
-    appcode = 'fdb3ac38f5b647f7976b0c374349a02f'
+    appcode = '在此输入你的阿里通用OCR appcode'
     querys = 'code=74e51a88-41ec-413e-b162-bd031fe0407e'
     bodys = {}
     url = host + path + '?' + querys
